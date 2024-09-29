@@ -1,0 +1,32 @@
+multi animate : <!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                var a =  $("div");
+                a.animate({ left: '100px',height:'150px',width:'250px' }, "slow");
+                a.animate({ fontSize: '3em' }, "slow");
+                a.css("background-color","red")
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <button>Start Animation</button>
+
+   
+
+    <div style="background:#98bf21;
+    height:100px;
+    width:200px;
+    position:absolute;
+    ">HELLO</div>
+
+</body>
+
+</html>

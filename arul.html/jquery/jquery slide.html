@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script>
+  jQuery(document).ready(function(){  
+        $("#bt1").click(function()
+        {
+        $("p").slideUp();
+    });
+    $("#bt2").click(function(){
+        $("p").slideDown();
+    })
+});
+
+    jQuery(document).ready(function(){
+        $("#h").click(function(){
+            $("h4").slideToggle("slow");
+        });
+    });
+</script>
+<style>
+    h4,p{
+        display:none;
+    }
+</style>
+<body>
+    <h4>hello</h4>
+    <button id="h">toggle</button>
+    <p>welcome class</p>
+    <button id="bt1">up</button>
+    <button id="bt2">down</button>
+
+
+</body>
+</html> 

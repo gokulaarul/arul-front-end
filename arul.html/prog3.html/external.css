@@ -1,0 +1,12 @@
+*{
+    color: aquamarine;
+    font-style: italic;
+    font-size: 24;
+    text-align: center;
+    background-color: black;
+}
+p{
+    color: crimson; 
+    background-color: bisque;
+    font-family: Verdana;
+}

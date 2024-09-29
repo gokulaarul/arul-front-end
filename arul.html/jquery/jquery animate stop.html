@@ -1,0 +1,42 @@
+stop() : <!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#a").click(function () {
+                $("#b").slideDown(5000);
+            });
+           $("button").click(function () {
+                $("#b").stop();
+            });
+        });
+    </script>
+    <style>
+        #a,
+        #b {
+            padding: 5px;
+            font-size: 18px;
+            text-align: center;
+            background-color: #555;
+            color: white;
+            border: solid 1px #666;
+            border-radius: 3px;
+        }
+
+        #b {
+            padding: 100px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <button>Stop sliding</button>
+
+    <div id="a">Click to slide down panel</div>
+    <div id="b">Hello world!</div>
+
+</body>
+</html>

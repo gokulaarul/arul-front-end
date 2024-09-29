@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+</head>
+<style>
+    .A{
+        background-image:url("C:\\Users\\student\\Desktop\\arul.html\\astro space.jpeg");
+        background-size:auto;
+        background-position:right;
+        background-size:60%;
+        background-repeat:no-repeat;
+        border:4px solid black;
+        border-style:double;
+    }
+    legend{
+        text-align: center;
+        text-decoration-thickness:8%;
+        text-decoration-line:underline overline;
+        color: crimson;
+        font-size: larger;
+        border: 2px solid black;
+        padding-top: 5px;
+    }
+    .B
+    {
+        text-transform: uppercase;
+    }
+    #c
+    {
+    border:2px solid black;
+    margin:4px;
+    }
+    
+       
+</style>
+<body>
+    <form>
+        <fieldset class="A" id="B">
+         <legend>enquriy form</legend>
+         <h1 style="text-transform:uppercase;">future builders</h1>
+        <label>Name  : </label>
+        <input class="B"type="text" id="n1" name="n1" placeholder="enter your name" required><br><br>
+        <label>Password :</label>
+        <input type="password" id="p1" name="p1" placeholder="enter your password"><br><br>
+        <label>D.O.B  :</label>
+        <input type="date" id="d1" name="d1" required><br><br>
+        <label>E-mail address:</label>
+        <input type="email" id="e1" name="e1" placeholder="enter your email address" required><br><br>
+        <label>Mobile Number :</label>
+        <input type="tel" id="m1" name="m1" required><br><br>
+    <label>Gender :</label>
+            <input type="radio">
+            <label>male</label>
+            <input type="radio">
+            <label>female</label><br><br>
+        <label>Courses :</label>
+        <select id="s1" name="s1" required>
+            <option>python</option>
+            <option>java</option>
+            <option>c++</option>
+            <option>c program</option>
+        </select><br><br>
+        <label>Batch timing :</label>
+        <input type="checkbox">
+        <label>10am to 12pm</label>
+        <input type="checkbox">
+        <label>1pm t0 3pm</label>
+        <input type="checkbox">
+        <label> 4pm to 6pm</label><br><br>
+        <label>Resume :</label>
+        <input type="file"><br><br><br>
+        <textarea id="c" name="t1" id="t1">feedback:
+        </textarea><br><br>
+        <button>submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>

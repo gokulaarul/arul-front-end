@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .A{
+        display:flex;
+        background-color: rgb(245, 245, 218);
+        flex-direction:row;
+        flex-wrap: wrap;
+        
+        align-items:flex-end;
+        
+        justify-content:center;
+       
+        
+    }
+    .A div{
+        background-color: rgb(238, 42, 42);
+        border-radius: 20px 35px;
+        margin: 50px;
+        padding: 20px;
+        font-size: medium;
+        font-family: 'Gill Sans';
+        /* text-align: center; */
+        
+                 
+        
+    }
+    /*.A:hover{
+        background-color: cyan;
+        }
+    .A div:hover{
+        background-color:hotpink;
+    }*/
+</style>
+
+<body>
+    <div>
+        <div class="A">
+            
+            <div style="flex-grow:1;order:1;">0ne</div>
+            <div style="flex-grow:1;order:2;">two</div>
+            <div style="flex-grow:1;order:3;">three</div>
+            <div style="flex-grow:1 ;order:4;">four</div>
+            <div style="flex-grow:1;order:1;">0ne</div>
+            <div style="flex-grow:1;order:2;">two</div>
+            <div style="flex-grow:1;order:3;">three</div>
+            <div style="flex-grow:1 ;order:4;">four</div>
+        
+        
+        </div>
+    </div>
+</body>
+</html>

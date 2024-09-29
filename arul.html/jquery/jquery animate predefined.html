@@ -1,0 +1,32 @@
+predefine : <!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("div").animate({
+                    height:'toggle',width:'toggle'
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <p>animate</p>
+
+    <button>Start Animation</button>
+
+    
+    <div style="background:#98bf21;
+    height:100px;
+    width:100px;
+    position:absolute;
+   ">hello</div>
+
+</body>
+
+</html>
